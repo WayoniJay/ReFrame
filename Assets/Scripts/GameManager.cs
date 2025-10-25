@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public float timeLeft = 60f;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI timerText;
-    public GameObject winPanel;
+    //public GameObject winPanel;
 
     void Update()
     {
@@ -28,6 +28,6 @@ public class GameManager : MonoBehaviour
 
     void EndGame()
     {
-        winPanel.SetActive(true);
+        //winPanel.SetActive(true);
     }
 }
